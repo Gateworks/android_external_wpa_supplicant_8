@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-ifneq ($(filter x86%,$(TARGET_ARCH)),)
+#ifneq ($(filter x86%,$(TARGET_ARCH)),)
 ifneq ($(filter VER_0_8_X VER_2_1_DEVEL,$(WPA_SUPPLICANT_VERSION)),)
 
 LOCAL_PATH := $(call my-dir)
@@ -74,4 +74,4 @@ include $(BUILD_STATIC_LIBRARY)
 ########################
 
 endif
-endif
+#endif
